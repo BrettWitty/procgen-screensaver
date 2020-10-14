@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 import tracery
 from tracery.modifiers import base_english
