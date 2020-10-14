@@ -6,7 +6,8 @@ you are away from your machine.
 
 ## Components
 
-The generator has a few sub-generators, all made in `pytracery`. These are:
+The generator has a few sub-generators, all made in `tracery`, the
+Python Tracery module. These are:
    
    * Coffee order generator
    * A food ontology puzzler
