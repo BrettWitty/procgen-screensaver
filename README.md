@@ -12,3 +12,7 @@ The generator has a few sub-generators, all made in `pytracery`. These are:
    * A food ontology puzzler
    * Random quotes
    * Fancy delimiters
+
+## Example
+
+![Demo](screensaver.png)
