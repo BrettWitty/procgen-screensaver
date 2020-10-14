@@ -1,0 +1,60 @@
+{
+    "coffee" : [
+        "I'll have #coffeeadj.a# #coffeetype##coffeeadd#.",
+        "Official team coffee: #coffeeadj# #coffeetype#.",
+        "A #mathematician# is a device for turning #coffeeadj.a# #coffeetype##coffeeadd# into #theorem.s#",
+        "Would you have a #coffeeadd2# in #coffeetype.a#?",
+        "So the coffee order is: #coffeeorder1#.",
+        "Which is better: #coffeeadj.a# #coffeetype##coffeeadd# OR #coffeeadj.a# #coffeetype##coffeeadd#?"
+    ],
+
+    "coffeeorder1" : [
+        "#numcoffees# #coffeeadj# #coffeetype.s##coffeeadd#; #coffeeorder2#",
+        "#coffeeadj.a# #coffeetype##coffeeadd#; #coffeeorder2#"
+    ],
+
+    "coffeeorder2" : [
+        "#numcoffees# #coffeeadj# #coffeetype.s##coffeeadd#; #coffeeorder2#",
+        "#coffeeadj.a# #coffeetype##coffeeadd#; #coffeeorder2#",
+        "and #coffeeadj.a# #coffeetype##coffeeadd#"
+    ],
+
+    "numcoffees" : [ "two", "two", "three", "four", "a half-dozen", "a dozen"],
+
+    "coffeeadj" : [ "cold", "iced", "brewed", "light", "warm", "dark", "black", "mocha", "strong", "extra hot", "cold-brewed", "percolated", "watery" ],
+
+    "coffeetype" : [ "espresso", "latte", "latte", "latte", "flat white", "cappucino", "coffee", "macchiato",
+                     "affogato", "International Roast(tm)", "coffee", "toffee coffee", "cofftea",
+                     "chai", "dirty chai", "caffe Americano", "caffe crema", "Doppio", "ristretto", "muggachino" ],
+
+    "coffeeadd" : [ " with #coffeeadd2#", " with #coffeeadd2# and #coffeeadd2#",
+                    " with #coffeeadd2#, #coffeeadd2# and #coffeeadd2#",
+                    " with a tiny bit of #coffeeadd2#",
+                    " with #coffeeadd2# but hold the #coffeeadd2#",
+                    " plus #coffeeadd2# but no #coffeeadd2#",
+                    ""
+                  ],
+
+    "coffeeadd2" : [ "one sugar", "two sugars", "artificial sweetener", "#numcoffees# sugars", "skim milk",
+                     "regular milk", "extra froth", "soy milk", "oat milk", "almond milk", "cream",
+                     "lemon", "an extra shot", "chocolate shavings", "cinnamon", "pumpkin spice",
+                     "a digestive", "#numcoffees# Tim tams", "a biscuit", "a cherry", "biscuit crumbs",
+                     "cake", "marshmallows", "a big marshmallow", "#shot#"
+                   ],
+
+    "shot" : [ "a #shotflavour# shot", "a shot of #shotflavour#"],
+    "shotflavour" : [ "vanilla", "caramel", "hazelnut", "mint", "chocolate", "strawberry", "coffee", "nougat",
+                      "lemon", "orange", "banana", "water"],
+    
+
+    "mathematician" : [ "mathematician", "mathematician", "computer scientist",
+                        "programmer", "code monkey" ],
+
+    "theorem" : [ "theorem", "lemma", "proposition", "result", "problem", "conjecture",
+                  "counter-example", "program", "paper", "travel proposal", "conference paper",
+                  "pathological example", "illuminating example", "cautionary tale",
+                  "back-of-the-envelope calculation", "lecture", "talk", "slide", "idea",
+                  "calculation", "white-board talk", "Zoom talk", "full /tmp/ directory",
+                  "CPU load", "Kubernetes pod", "pun", "commutative diagram"
+                ]
+}

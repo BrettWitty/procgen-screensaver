@@ -1,0 +1,42 @@
+{
+
+    "main" : [ "#coffee#", "#warning#", "#ontology#", "#quotes#" ],
+
+    "linedrawing" : [ "\n#ornament##leftline##midline##rightline#" ],
+
+    "ornament" : [
+        "[leftline:--------][rightline:--------]",
+        "[leftline:========][rightline:========]",
+        "[leftline:~~~~~~~~][rightline:~~~~~~~~]",
+        "[leftline:********][rightline:********]",
+        "[leftline:@-------][rightline:-------@]",
+        "[leftline:#-------][rightline:-------#]",
+        "[leftline:%-------][rightline:-------%]",
+        "[leftline:*-------][rightline:-------*]",
+        "[leftline:+-------][rightline:-------+]",
+        "[leftline:{-------][rightline:-------}]",
+        "[leftline:}-------][rightline:-------{]",
+        "[leftline:@=======][rightline:=======@]",
+        "[leftline:#=======][rightline:=======#]",
+        "[leftline:%=======][rightline:=======%]",
+        "[leftline:*=======][rightline:=======*]",
+        "[leftline:+=======][rightline:=======+]",
+        "[leftline:{=======][rightline:=======}]",
+        "[leftline:}=======][rightline:======={]",
+        "[leftline:@~~~~~~~][rightline:~~~~~~~@]",
+        "[leftline:#~~~~~~~][rightline:~~~~~~~#]",
+        "[leftline:%~~~~~~~][rightline:~~~~~~~%]",
+        "[leftline:*~~~~~~~][rightline:~~~~~~~*]",
+        "[leftline:+~~~~~~~][rightline:~~~~~~~+]",
+        "[leftline:{~~~~~~~][rightline:~~~~~~~}]",
+        "[leftline:}~~~~~~~][rightline:~~~~~~~{]"
+    ],
+
+    "midline" : [
+        "----------------------------------------",
+        "========================================",
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "________________________________________"
+    ]
+    
+}

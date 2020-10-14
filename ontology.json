@@ -1,0 +1,23 @@
+{
+
+    "ontology" : [
+        "Is a #foodtype##foodstuff# a #foodstuff#?",
+        "Is a #foodtype##foodstuff# technically a #foodstuff#?",
+        "Do you think a #foodtype##foodstuff# could be classified as a #foodtype##foodstuff#?",
+        "[afood:#foodstuff#][bfood:#foodstuff#]If you had #afood# inside of a #bfood#, would it still be a #bfood# or would it be a #afood# #foodcontainer#?",
+        "Is a #foodmodifier##foodtype##foodstuff# more like a #foodstuff# or a #foodstuff#?",
+        "How would you define a #foodstuff#? Would that also include #foodmodifier##foodtype##foodstuff.s#?",
+        "Why can't a #foodmodifier##foodtype##foodstuff# be considered a #foodstuff#?",
+        "Yesterday I ordered a #foodmodifier##foodtype##foodstuff# but got a #foodmodifier##foodtype##foodstuff#!"
+    ],
+
+    "foodstuff" : [ "pie", "pizza", "taco", "burger", "sandwich", "roll", "kebab",
+                    "cake", "calzone", "pastry", "sushi" ],
+
+    "foodtype" : [ "", "", "seafood ", "meat ", "beef ", "chicken ", "vegan ", "soybean ", "crab ", "fish "],
+
+    "foodmodifier" : [ "", "", "deconstructed  ", "inside-out ", "carb-free ", "meat-free ", "shredded " ],
+
+    "foodcontainer" : [ "wrap", "sandwich", "salad", "burger", "stuffing", "stack" ]
+
+}
