@@ -4,18 +4,20 @@ import tracery
 from tracery.modifiers import base_english
 import json
 import sys
+import pathlib
 
 def main():
 
     # Load in the list of filenames
-    with open('files.json', 'r') as f:
+    dir_path = pathlib.Path(__file__).resolve().parent
+    with open(dir_path / 'files.json', 'r') as f:
         filenames = json.load(f)
 
     rules = dict()
 
     # Append the rules from each file to the main rules set
     for filename in filenames:
-        with open(filename, 'r') as f:
+        with open(dir_path / filename, 'r') as f:
             new_rules = json.load(f)
             rules.update(new_rules)
 
