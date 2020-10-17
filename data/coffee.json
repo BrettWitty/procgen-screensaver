@@ -2,10 +2,10 @@
     "coffee" : [
         "I'll have #coffeeadj.a# #coffeetype##coffeeadd#.",
         "Official team coffee: #coffeeadj# #coffeetype#.",
-        "A #mathematician# is a device for turning #coffeeadj.a# #coffeetype##coffeeadd# into #theorem.s#",
         "Would you have a #coffeeadd2# in #coffeetype.a#?",
         "So the coffee order is: #coffeeorder1#.",
-        "Which is better: #coffeeadj.a# #coffeetype##coffeeadd# OR #coffeeadj.a# #coffeetype##coffeeadd#?"
+        "Which is better: #coffeeadj.a# #coffeetype##coffeeadd# OR #coffeeadj.a# #coffeetype##coffeeadd#?",
+        "#coffeequote#"
     ],
 
     "coffeeorder1" : [
@@ -31,7 +31,7 @@
                     " with #coffeeadd2#, #coffeeadd2# and #coffeeadd2#",
                     " with a tiny bit of #coffeeadd2#",
                     " with #coffeeadd2# but hold off on #coffeeadd2#",
-                    " plus #coffeeadd2# but no #coffeeadd2#",
+                    " plus #coffeeadd2# but hold off on #coffeeadd2#",
                     ""
                   ],
 
@@ -45,7 +45,8 @@
     "shot" : [ "a #shotflavour# shot", "a shot of #shotflavour#"],
     "shotflavour" : [ "vanilla", "caramel", "hazelnut", "mint", "chocolate", "strawberry", "coffee", "nougat",
                       "lemon", "orange", "banana", "water"],
-    
+
+    "coffeequote" : [ "A #mathematician# is a device for turning #coffeeadj.a# #coffeetype##coffeeadd# into #theorem.s#." ],
 
     "mathematician" : [ "mathematician", "mathematician", "computer scientist",
                         "programmer", "code monkey" ],
